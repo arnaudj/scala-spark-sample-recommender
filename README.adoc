@@ -1,0 +1,3 @@
+= Project
+
+`sbt new https://github.com/scala/scala-seed.g8`
