@@ -8,8 +8,9 @@ lazy val root = (project in file(".")).
       scalaVersion := "2.11.8",
       version      := "0.1.0-SNAPSHOT"
     )),
-    name := "Hello",
+    name := "Recommender",
     libraryDependencies += scalaTest % Test,
     libraryDependencies += "org.apache.spark" %% "spark-core" % "2.1.1",
-    libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.1.1"
+    libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.1.1",
+    libraryDependencies += "org.apache.spark" %% "spark-mllib" % "2.1.1"
   )
